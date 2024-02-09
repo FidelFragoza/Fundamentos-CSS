@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    width: 100%;
+}
+
+.encabezado {
+    width: 100%;
+    padding: 1vw;
+    background-color: gray;
+}
+
+#titulo {
+    color: aliceblue;
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+}
+
+#navegador {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+
+}
+
+#navegador a {
+    margin-right: 20px; /* Agrega un margen derecho de 20px entre los enlaces */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
